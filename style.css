@@ -199,7 +199,8 @@ button:hover{
     }
        
     header{
-        margin-bottom: -98px;
+        padding-top:50px ;
+        margin-bottom: -150px;
         flex-direction: column;
     }
 
