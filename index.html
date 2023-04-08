@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu CEP</title>
+    <link rel="shortcut icon" href="imagens/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="imagens/localização.webp" alt="localização">
+            <h2>Brasil CEP</h2>
+        </div>       
+        <nav id="nav">
+                <a href="#">Início</a>
+                <a href="#">Contato</a>
+                <a href="#">Sobre</a>
+                <span class="link"><a href="#" id="link-border">Cadastre o seu CEP</a></span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="text">
+            <h1>Cadastre o seu endereço</h1>
+            <p>Preencha os campos para<br>
+            cadastrarmos o seu endereço!</p>
+        </div>
+        
+        <form id="address-form">
+            <div class="cep">
+                <input type="text" name="cep" id="cep" placeholder="Digite o seu CEP">
+            </div>
+            
+            <div class="campos">
+                <div class="left">
+                    <input type="text" name="street" id="street" placeholder="Rua">
+                    <input type="text" name="complement" id="complement" placeholder="Digite o complemento">
+                    <input type="text" name="city" id="city" placeholder="Cidade">
+                </div>
+                
+                <div class="right">
+                    <input type="text" name="number-house" id="number-house" placeholder="Digite o número da residência">
+                    <input type="text" name="neighborhood" id="neighborhood" placeholder="Bairro">
+                    <input type="text" name="region" id="region" placeholder="Estado">
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
